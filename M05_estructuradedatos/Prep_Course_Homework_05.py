@@ -4,21 +4,22 @@
 # ## Estructuras de Datos
 
 # 1) Crear una lista que contenga nombres de ciudades del mundo que contenga más de 5 elementos e imprimir por pantalla
-
+world_cities_list = ["Buenos Aires","Cape Town","Berlin","Yakarta","Camberra"]
+print(world_cities_list)
 # In[3]:
 
 
 
 
 # 2) Imprimir por pantalla el segundo elemento de la lista
-
+print(world_cities_list[1])
 # In[4]:
 
 
 
 
 # 3) Imprimir por pantalla del segundo al cuarto elemento
-
+print(world_cities_list[1:4])
 # In[8]:
 
 
@@ -26,7 +27,7 @@
 
 
 # 4) Visualizar el tipo de dato de la lista
-
+print(type(world_cities_list))
 # In[12]:
 
 
